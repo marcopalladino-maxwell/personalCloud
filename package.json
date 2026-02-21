@@ -1,0 +1,28 @@
+{
+    "name": "photo-video-cloud",
+    "version": "1.0.0",
+    "description": "Node.js Express app with authentication and photo/video upload",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [
+        "express",
+        "authentication",
+        "file-upload",
+        "bootstrap"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "bcryptjs": "^2.4.3",
+        "multer": "^1.4.5-lts.1",
+        "ejs": "^3.1.9"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
